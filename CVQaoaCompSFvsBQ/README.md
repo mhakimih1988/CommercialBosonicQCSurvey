@@ -1,9 +1,9 @@
 # Continuous-Variable Quantum Circuit Comparison: Strawberry Fields vs. Bosonic Qiskit
 
-This repository explores and compares two photonic quantum computing frameworks:
+This repository explores and compares two bosonic quantum computing frameworks:
 
 - [**Strawberry Fields**](https://strawberryfields.ai) by Xanadu — a platform for continuous-variable (CV) quantum computing.
-- [**Bosonic Qiskit (C2QA)**](https://github.com/C2QA/bosonic-qiskit) — an extension of Qiskit for simulating CV and hybrid CV-DV (continuous-variable/discrete-variable) systems.
+- [**Bosonic Qiskit (C2QA)**](https://github.com/C2QA/bosonic-qiskit) — an extension of Qiskit for simulating CV and hybrid CV-DV systems.
 
 ## Overview
 

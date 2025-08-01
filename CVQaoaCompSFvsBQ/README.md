@@ -19,4 +19,4 @@ Then, we attempted to recreate similar behavior using **Bosonic Qiskit** (C2QA).
 - **Bosonic Qiskit (BQ)** supports **both CV and hybrid CV-DV** circuits. To our knowledge, it is currently the only accessible framework that includes hybrid gates (e.g., conditional CV operations conditioned on Fock states).
 - While **PennyLane** also integrates with Strawberry Fields and supports CV/DV devices separately, it does **not** (yet) provide native **hybrid CV-DV gates** or circuit constructs.
 
-
+## Python version: Python 3.9.13

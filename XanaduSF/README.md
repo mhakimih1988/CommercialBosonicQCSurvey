@@ -61,14 +61,14 @@ $$
 
 where:
 
-- **`Pgate(s)`** implements a momentum shear, corresponding to a quadratic phase shift in the position basis.
-- **`Zgate(z)`** performs a momentum displacement:
+**`Pgate(s)`** implements a momentum shear, corresponding to a quadratic phase shift in the position basis.
+**`Zgate(z)`** performs a momentum displacement:
 
   $$
   \hat{Z}(z) = \exp(i z \hat{x}),
   $$
-`𝑍̂(z) = exp(i z 𝑥̂)`
-- **`Rgate(θ)`** is a phase-space rotation:
+
+**`Rgate(θ)`** is a phase-space rotation:
 
   $$
   \hat{R}(\theta) = \exp(i \theta \hat{n}),

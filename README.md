@@ -46,13 +46,11 @@ This comparison is limited to **continuous-variable (CV)** components only, beca
 │   └── README.md                 # Section-specific notes
 
 ├── XanaduSF/                   # Work with Xanadu’s Strawberry Fields
-│   ├── Practice/                   # General scratch notebooks, testing, and exploration
 │   ├── qaoaOnGaussianSimulon.ipynb
 │   ├── cvqaoaOnSimulonSuccessful.ipynb
 │   └── README.md
 
 ├── quandelaPerceval/           # Work with Quandela’s Perceval platform
-│   ├── Practice/                   # General scratch notebooks, testing, and exploration
 |   ├── VQE_onTheBackend.ipynb      # Attempted VQE implementation on supported backend
 │   └── README.md
 

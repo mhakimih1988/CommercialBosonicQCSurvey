@@ -25,7 +25,7 @@ You can find a summary of this strategy in the accompanying short survey report 
 
 ## ⚖️ CV Comparison: Strawberry Fields vs. Bosonic Qiskit
 
-To explore the capabilities of different photonic quantum frameworks, we implemented a CV-QAOA-inspired algorithm using both:
+To explore the capabilities of different bosonic quantum frameworks, we implemented a CV-QAOA-inspired algorithm using both:
 
 - **Strawberry Fields** (Xanadu)
 - **Bosonic Qiskit** (C2QA)

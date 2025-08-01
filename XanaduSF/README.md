@@ -59,13 +59,10 @@ $$
 \hat{P}(s) = \hat{R}(-\pi/2) \, \hat{Z}(s) \, \hat{R}(\pi/2),
 $$
 
-where:
 
-- **`Pgate(s)`** implements a momentum shear, corresponding to a quadratic phase shift in the position basis.
-- **`Zgate(z)`** performs a momentum displacement:
 
   $$
-  \hat{Z}(z) = \exp(i z x),
+  \hat{Z}(z) = \exp(i z \hat{x}),
   $$
 
 - **`Rgate(θ)`** is a phase-space rotation:

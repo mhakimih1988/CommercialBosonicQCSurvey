@@ -9,7 +9,6 @@ This repository is dedicated to exploring **bosonic quantum systems**, particula
 The main goals of this project are:
 
 - Investigate **gate-level capabilities** across CV and DV models
-- Consider the **impact of noise and simulation realism**
 - Explore **compatibility with QAOA-type circuits**
 
 We focus on three commercially active platforms:

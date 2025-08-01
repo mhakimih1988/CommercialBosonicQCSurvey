@@ -11,7 +11,7 @@ The two original examples that served as the foundation for this project are:
 
 We adopted and modified these examples to make them compatible with **Xanadu’s `simulon_gaussian` backend**, introducing only minor changes where needed to fit the constraints of this simulator.
 
-During our research and implementation process, we encountered a number of important constraints and challenges specific to these platforms.
+During our research and implementation process, we encountered a number of important constraints and challenges specific to these platforms. It is worth noting that this work needs improvement to get more accurate results. So far we've been able to make the algorithm work programmatically on the backend simulator.
 
 ---
 

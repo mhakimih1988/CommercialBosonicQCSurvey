@@ -65,7 +65,7 @@ where:
 - **`Zgate(z)`** performs a momentum displacement:
 
   $$
-  \hat{Z}(z) = \exp(i z \hat{x}),
+  \hat{Z}(z) = \exp(i z x),
   $$
 
 - **`Rgate(θ)`** is a phase-space rotation:

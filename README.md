@@ -32,30 +32,31 @@ To explore the capabilities of different photonic quantum frameworks, we impleme
 
 This comparison is limited to **continuous-variable (CV)** components only, because **Strawberry Fields does not support hybrid CV-DV gates**. In contrast, **Bosonic Qiskit does support hybrid gates**, such as **conditional displacements**, which opens up more flexibility in circuit design.
 
-The comparison focuses on:
-
-- Gate support and expressivity
-- Circuit construction and simulation
-- Alignment with CV-QAOA structures
-
 📄 **Read the detailed comparison report:**  
 [comparisonBQ_SF.pdf](CVQaoaCompSFvsBQ/comparisonBQ_SF.pdf)
 
 ---
 
 
-## 📁 Repository Structure
-
 ```text
 .
-├── CVQaoaCompSFvsBQ/           # Comparison between Strawberry Fields and Bosonic Qiskit (CV only)
-│   └── comparisonBQ_SF.pdf     # Report summarizing findings from CV-level comparison
-│
-├── XanaduSF/                   # Notebooks and materials for Xanadu's Strawberry Fields platform
-│   └── qaoaOnGaussianSimulon.ipynb
-│
-├── quandelaPerceval/           # Code and analysis for the Quandela (Perceval) platform
-│
-├── survey_report.pdf           # High-level overview of platform goals and focus
-│
+├── CVQaoaCompSFvsBQ/           # CV-QAOA comparison: Strawberry Fields vs. Bosonic Qiskit
+│   ├── cvqaoaSFLike.ipynb        # CV-QAOA using Bosonic Qiskit in SF-like form
+│   ├── comparisonBQ_SF.pdf       # Summary of CV-only comparison findings
+│   └── README.md                 # Section-specific notes
+
+├── XanaduSF/                   # Work with Xanadu’s Strawberry Fields
+│   ├── Practice/                   # General scratch notebooks, testing, and exploration
+│   ├── qaoaOnGaussianSimulon.ipynb
+│   ├── cvqaoaOnSimulonSuccessful.ipynb
+│   └── README.md
+
+├── quandelaPerceval/           # Work with Quandela’s Perceval platform
+│   ├── Practice/                   # General scratch notebooks, testing, and exploration
+|   ├── VQE_onTheBackend.ipynb      # Attempted VQE implementation on supported backend
+│   └── README.md
+
+
+├── survey_report.pdf           # High-level PDF report outlining project goals
 └── README.md                   # This file
+```

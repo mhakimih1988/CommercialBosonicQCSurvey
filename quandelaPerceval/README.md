@@ -43,6 +43,8 @@ For academic users, it is possible to apply for an **academic license**, which i
 
 That said, even with the academic license, **additional credits must still be purchased** to run jobs beyond the small free allocation.
 
+## Python version: Python 3.13.3
+
 
 
 

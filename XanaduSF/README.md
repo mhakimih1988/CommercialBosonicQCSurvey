@@ -96,4 +96,5 @@ Although neither `Rgate` nor `Zgate` individually can replace the `Pgate`, the c
 Rgate(-np.pi/2) | q[0]
 Zgate(-2 * hbar * p) | q[0]
 Rgate(np.pi/2) | q[0]
+```
 
